@@ -15,7 +15,7 @@ Use MongoDB with OpenLiberty via Maven.
 
 ```\TG-Database\target\liberty\wlp\usr\servers\defaultServer\resources\security```
 
-`openssl s_client -showcerts -servername tg-database-shard-00-02.1q9gs.mongodb.net:27017 -connect tg-database-shard-00-02.1q9gs.mongodb.net:27017 >> fix.txt`
+`openssl s_client -showcerts -servername tg-database-shard-00-02.1q9gs.mongodb.net:27017 -connect tg-database-shard-00-02.1q9gs.mongodb.net:27017 > fix.txt`
 
 `openssl s_client -showcerts -servername tg-database-shard-00-00.1q9gs.mongodb.net:27017 -connect tg-database-shard-00-00.1q9gs.mongodb.net:27017 >> key.p12`
 
