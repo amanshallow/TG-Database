@@ -3,7 +3,7 @@ Use MongoDB with OpenLiberty via Maven.
 
 -----------------------------------
 
-**Please DON'T edit ".gitignore", target and .idea are IDE unique for everyone! Thus, they cannot be included in this shared repo!**
+**Please DON'T edit ".gitignore", target and .idea directories are unique for everyone! Thus, they cannot be included in this shared repo!**
 
 ---------------------------------
 
