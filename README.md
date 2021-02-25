@@ -7,7 +7,7 @@ Use MongoDB with OpenLiberty via Maven.
 
 ---------------------------------
 
-**Use either the SSLErrorFix.txt file from Discord in order to fix the "SSL Handshake Error" or the following commands in a Terminal:**
+**Use the following commands in a Terminal in order to fix the "SSL Handshake Error":**
 
 -------------------------------------------
 
