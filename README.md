@@ -1,15 +1,11 @@
 # TG-Database
-Use MongoDB with OpenLiberty via Maven.
-
------------------------------------
-
-**Please DON'T edit ".gitignore", target and .idea directories are unique for everyone! Thus, they cannot be included in this shared repo!**
+Get started with MongoDB CRUD operations with IBM's OpenLiberty and Maven.
 
 ---------------------------------
 
 **Use the following commands in a Terminal in order to fix the "SSL Handshake Error":**
 
--------------------------------------------
+---------------------------------
 
 ***Location of key.p12 file:*** 
 
