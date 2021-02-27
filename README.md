@@ -11,8 +11,8 @@ Get started with MongoDB CRUD operations with IBM's OpenLiberty and Maven.
 
 ```\TG-Database\target\liberty\wlp\usr\servers\defaultServer\resources\security```
 
-`openssl s_client -showcerts -servername tg-database-shard-00-02.1q9gs.mongodb.net:27017 -connect tg-database-shard-00-02.1q9gs.mongodb.net:27017 > fix.txt`
+`openssl s_client -showcerts -servername [endpoint-name].mongodb.net:27017 -connect [endpoint-name].mongodb.net:27017 > fix.txt`
 
-`openssl s_client -showcerts -servername tg-database-shard-00-00.1q9gs.mongodb.net:27017 -connect tg-database-shard-00-00.1q9gs.mongodb.net:27017 >> key.p12`
+`openssl s_client -showcerts -servername [endpoint-2-name].mongodb.net:27017 -connect [endpoint-2-name].mongodb.net:27017 >> key.p12`
 
-`openssl s_client -showcerts -servername tg-database-shard-00-01.1q9gs.mongodb.net:27017 -connect tg-database-shard-00-01.1q9gs.mongodb.net:27017 >> key.p12`
+`openssl s_client -showcerts -servername [endpoint-3-name].mongodb.net:27017 -connect [endpoint-3-name].mongodb.net:27017 >> key.p12`
