@@ -1,5 +1,5 @@
 # TG-Database
-Get started with MongoDB CRUD operations with IBM's OpenLiberty and Maven.
+Get started with MongoDB CRUD operations using IBM's OpenLiberty microservice framework and Maven.
 
 ---------------------------------
 
